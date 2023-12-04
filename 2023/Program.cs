@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Collections.Generic;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace _2023
@@ -14,16 +16,19 @@ namespace _2023
 
             Console.WriteLine($"Amount of lines: {lines.Length}");
 
-            var regex = new Regex(@"[^0-9]+|(^one)|(^two)|(^three)|(^four)|(^five)|(^six)|(^seven)|(^eight)|(^nine)");
+            var pattern = @"[0-9]+|(one)|(two)|(three)|(four)|(five)|(six)|(seven)|(eight)|(nine)";
 
             var sum = lines
-                .Take(2)
                 .Select(l => {
                         Console.WriteLine($"Before: {l}");
-                        var split = regex
-                            .Split(l)
-                            .Where(x => !string.IsNullOrWhiteSpace(x))
-                            .ToArray();
+
+                        var matches = Regex.Matches(l, pattern, RegexOptions.IgnorePatternWhitespace);
+                        Console.WriteLine("Found {0} matches.", matches.Count);
+
+                        var split = new List<string>();
+                        foreach (Match match in matches)
+                            split.Add(match.Groups[0].Value);
+
                         Console.WriteLine($"Split concated: {string.Concat(split)}");
 
                         var convertedValues = split.Select(s => s switch 

@@ -30,3 +30,4 @@ C:\Users\37069\Desktop\CodeOfAdvent\2023\obj\Debug\net5.0\1-puzzle.dll
 C:\Users\37069\Desktop\CodeOfAdvent\2023\obj\Debug\net5.0\ref\1-puzzle.dll
 C:\Users\37069\Desktop\CodeOfAdvent\2023\obj\Debug\net5.0\1-puzzle.pdb
 C:\Users\37069\Desktop\CodeOfAdvent\2023\obj\Debug\net5.0\1-puzzle.genruntimeconfig.cache
+C:\Users\v.mickevicius\Projects\CodeOfAdvent\2023\obj\Debug\net5.0\1-puzzle.pdb

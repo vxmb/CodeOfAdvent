@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\37069\\Desktop\\CodeOfAdvent\\2023\\1-puzzle.csproj": {}
+    "C:\\Users\\v.mickevicius\\Projects\\CodeOfAdvent\\2023\\1-puzzle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\37069\\Desktop\\CodeOfAdvent\\2023\\1-puzzle.csproj": {
+    "C:\\Users\\v.mickevicius\\Projects\\CodeOfAdvent\\2023\\1-puzzle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\37069\\Desktop\\CodeOfAdvent\\2023\\1-puzzle.csproj",
+        "projectUniqueName": "C:\\Users\\v.mickevicius\\Projects\\CodeOfAdvent\\2023\\1-puzzle.csproj",
         "projectName": "1-puzzle",
-        "projectPath": "C:\\Users\\37069\\Desktop\\CodeOfAdvent\\2023\\1-puzzle.csproj",
-        "packagesPath": "C:\\Users\\37069\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\37069\\Desktop\\CodeOfAdvent\\2023\\obj\\",
+        "projectPath": "C:\\Users\\v.mickevicius\\Projects\\CodeOfAdvent\\2023\\1-puzzle.csproj",
+        "packagesPath": "C:\\Users\\v.mickevicius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v.mickevicius\\Projects\\CodeOfAdvent\\2023\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\37069\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\v.mickevicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -40,15 +40,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
         }
       }
     }
